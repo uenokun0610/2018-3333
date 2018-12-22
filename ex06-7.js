@@ -1,7 +1,7 @@
-var who ='world';
+var who = 'world';
 function sayhello67() {
-   alert('Hello,' + who + '!');
+  alert('Hello, ' + who + '!');
 }
-function someone(X) {
-  who = X;
-}
+function someone(x) {
+  who = x;
+}  
