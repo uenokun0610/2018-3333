@@ -116,6 +116,20 @@
     <p><input type="button" value="実行ボタン" onclick="addCount()"></p>
   
   
+  <h1>----------------------------------------------------------------------------</h1>
+  </h1>  
+  <h1>関数を使ったサイコロ！期末課題編</h1>
+<hr>
+<form name="form1">
+<input name="sai" type="text">
+<input type="button" value="振る" onClick="getNum()">
+</form>
+  <script>
+     function getNum() {
+	r = Math.floor(Math.random() * 6) + 1; 
+	document.form1.sai.value = r; 
+}
+  </script>  
   
   
 </body>
